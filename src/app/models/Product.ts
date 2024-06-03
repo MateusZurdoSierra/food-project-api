@@ -11,8 +11,8 @@ export const Product = model(
       required: true,
       type: [
         {
-          name: { type: Number, required: true },
-          icon: { type: Number, required: true },
+          name: { type: String, required: true },
+          icon: { type: String, required: true },
         },
       ],
     },
